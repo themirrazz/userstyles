@@ -1,0 +1,325 @@
+@-moz-document regexp("^.*\\.instructure\\.com(/.*)?$") {
+body {
+    background-color: #2b2929;
+    color: white;
+    image-rendering: pixelated;
+}
+
+body, .todo-list *, .recent_feedback * {
+    font-family: monospace;
+}
+
+a {
+    color: #14c425;
+}
+
+.header-bar, .item-group-container {
+    background-color: transparent;
+}
+
+.ig-header.header {
+    background-color: transparent;
+    filter: none;
+    box-shadow: none;
+}
+
+.ig-header.header .name {
+    filter: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.ig-row {
+    background: transparent !important;
+    border: none;
+}
+
+.ig-header-title i, .ig-header-title span.name {
+    color: #14c425;
+}
+
+.ig-type-icon {
+    color: white;
+}
+
+.ig-list .ig-row a.ig-title {
+    color: #14c425;
+}
+
+.ig-details {
+    color: white;
+}
+
+.context_module_item.context_module_item_hover {
+    background: #14c425;
+}
+
+.context_module_item.context_module_item_hover a.ig-title {
+    color: #2b2929;
+}
+
+.context_module_item.context_module_item_hover .ig-type-icon {
+    color: #2b2929;
+}
+
+.module-sequence-footer .module-sequence-footer-content {
+    background: transparent;
+}
+
+nav li.section a {
+    color: #14c425;
+    outline: none !important;
+}
+
+nav li.section a.active {
+    background-color: #14c425;
+    color: #2b2929;
+}
+
+.nav-badge {
+    background-color: white;
+    color: #2b2929;
+}
+
+.ToDoSidebarItem * {
+    color: white;
+}
+
+.ToDoSidebarItem__Title a {
+    color: #14c425;
+    text-decoration: underline #14c425;
+}
+
+.ToDoSidebarItem__Title span, .ToDoSidebarItem .css-tpuo6v-text {
+    color: #14c425;
+}
+
+.event-details * {
+    color: #14c425;
+}
+
+.recent_feedback_icon:hover {
+    text-decoration: underline #14c425;
+}
+
+.ic-Layout-watermark {
+    display: none;
+}
+
+.ic-app-header__logomark {
+    display: none;
+}
+
+.icon-hamburger {
+    color: #14c425;
+}
+
+nav#breadcrumbs {
+    background: transparent;
+}
+
+nav#breadcrumbs a {
+    color: #14c425;
+}
+
+#breadcrumbs > ul > li + li:last-of-type a {
+    color: white;
+}
+
+.ic-app-course-nav-toggle {
+    outline: none !important;
+    border: none !important;
+    color: #2b2929 !important;
+}
+
+.btn, .ui-button, .Button:not(.ic-app-course-nav-toggle) {
+    background-color: #2b2929;
+    color: #14c425;
+    border-radius: 0px;
+    border: 1px solid #14c425;
+    transition: none;
+}
+
+.btn:hover, .ui-button.ui-state-active, .Button:not(.ic-app-course-nav-toggle):hover {
+    background-color: #14c425;
+    color: #2b2929;
+}
+
+.event-details:after {
+    display: none;
+}
+
+.ic-Dashboard-header__layout {
+    background-color: transparent;
+    color: #14c425;
+}
+
+.ic-DashboardCard__action-container, .ic-DashboardCard__header_content {
+    background-color: #2b2929;
+}
+
+.ic-DashboardCard {
+    background-color: #2b2929;
+    box-shadow: 6px 6px 0px #14c4257d;
+    border: 2px solid #14c425;
+    border-radius: 0px;
+}
+
+.ic-DashboardCard a {
+    color: #a6a6a6;
+}
+
+.ic-DashboardCard__header-title {
+    color: #14c425;
+}
+
+.ic-DashboardCard__header-title * {
+    color: #14c425 !important;
+}
+
+.ic-DashboardCard__header_hero {
+    background-color: #115b18 !important;
+}
+
+.ic-DashboardCard__header_image {
+    filter: blur(0px);
+}
+
+.ic-app-header {
+    background-color: #383434;
+}
+
+.ic-app-header__menu-list-link {
+    background-color: #383434 !important;
+    color: #14c425 !important;
+}
+
+.ic-app-header__menu-list-link .menu-item__text {
+    color: #14c425 !important;
+}
+
+.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+    background-color: #14c425 !important;
+}
+
+.ic-app-header__menu-list-link svg {
+    fill: #14c425 !important;
+}
+
+.ic-app-header__menu-list-item--active svg {
+    fill: white !important;
+}
+
+.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link * {
+    color: white !important;
+}
+
+.css-1gto5tw-tray {
+    background-color: #444040;
+    color: white;
+}
+
+.css-1gto5tw-tray * {
+    color: white !important;
+    font-family: monospace !important;
+}
+
+.css-1gto5tw-tray a {
+    color: #14c425 !important;
+}
+
+.css-13p5152-baseButton__content {
+    border: 1px solid #14c425;
+    color: #14c425 !important;
+    background-color: transparent;
+    outline: none;
+    border-radius: 0px;
+}
+
+.css-13p5152-baseButton__content span {
+    color: #14c425 !important;
+}
+
+.css-svglmx-toggleFacade__facade {
+    background-color: transparent;
+    border: 4px solid #6c120c;
+    height: 12px;
+}
+
+.css-puj4r1-toggleFacade__icon {
+    height: 28px;
+    width: 28px;
+    transform: translate(-12px, -8px);
+}
+
+.css-jgf27f-toggleFacade__iconToggle:before {
+    background-color: #c4140a;
+}
+
+.css-htn7vy-toggleFacade__facade {
+    background-color: transparent;
+    border: 4px solid #096011;
+    height: 12px;
+}
+
+.css-vhbbzt-toggleFacade__icon {
+    height: 28px;
+    width: 28px;
+    transform: translate(22px, -8px);
+}
+
+.css-vhbbzt-toggleFacade__icon .css-jgf27f-toggleFacade__iconToggle:before {
+    background: #14c425 !important;
+}
+
+.fc, .fc-toolbar, .fc-left, .fc-right, .fc-center, .fc-view-container {
+    background-color: transparent !important;
+}
+
+.fc {
+    color: #14c425;
+}
+
+.fc-body, #calendar-app {
+    background-color: transparent !important;
+}
+
+.fc-day-top {
+    border: none !important;
+    outline: none !important;
+    color: #14c425;
+}
+
+.fc-row {
+    border: none !important;
+}
+
+.fc-day-grid-event {
+    background-color: transparent !important;
+}
+
+.fc-today {
+    background: #14c425 !important;
+}
+
+.fc-today * {
+    color: white !important;
+}
+
+#calendar-list-holder {
+    background-color: transparent;
+}
+
+.context_list_context {
+    color: #14c425;
+}
+
+.context_list_context.hover-container:hover {
+    background-color: #14c425 !important;
+    color: white;
+}
+
+.event-details {
+    background-color: #383434;
+}
+}
