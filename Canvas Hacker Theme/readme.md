@@ -6,3 +6,6 @@ added support for settings and file explorer, fixed text areas and inputs, force
 
 # version three
 added better compatibility with canvas for teachers, styled some of the inputs and dropdowns
+
+# version four
+fixed a bug that made it impossible to take quizes with this theme on
