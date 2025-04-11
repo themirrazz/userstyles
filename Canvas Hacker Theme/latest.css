@@ -1,0 +1,679 @@
+@-moz-document regexp("^.*\\.instructure\\.com(/.*)?$") {
+body {
+    background-color: #2b2929;
+    color: white;
+    image-rendering: pixelated;
+}
+
+body, .todo-list *, .recent_feedback * {
+    font-family: monospace;
+}
+
+h1, h2, p, pre, input, button, a, span, div, li, em-emoji-picker {
+    font-family: monospace !important;
+}
+a {
+    color: #14c425;
+}
+
+a:hover {
+    color: #149120;
+}
+
+.header-bar, .item-group-container {
+    background-color: transparent;
+}
+
+.ig-header.header {
+    background-color: transparent;
+    filter: none;
+    box-shadow: none;
+}
+
+.ig-header.header .name {
+    filter: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.ig-row {
+    background: transparent !important;
+    border: none;
+}
+
+.ig-header-title i, .ig-header-title span.name {
+    color: #14c425;
+}
+
+.ig-type-icon {
+    color: white;
+}
+
+.ig-list .ig-row a.ig-title {
+    color: #14c425;
+}
+
+.ig-details {
+    color: white;
+}
+
+.context_module_item.context_module_item_hover {
+    background: #14c425;
+}
+
+.context_module_item.context_module_item_hover a.ig-title {
+    color: #2b2929;
+}
+
+.context_module_item.context_module_item_hover .ig-type-icon {
+    color: #2b2929;
+}
+
+.module-sequence-footer .module-sequence-footer-content {
+    background: transparent;
+}
+
+nav li.section a {
+    color: #14c425;
+    outline: none !important;
+}
+
+nav li.section a.active {
+    background-color: #14c425;
+    color: #2b2929;
+}
+
+.nav-badge {
+    background-color: white;
+    color: #2b2929;
+}
+
+.ToDoSidebarItem * {
+    color: white;
+}
+
+.ToDoSidebarItem__Title a {
+    color: #14c425;
+    text-decoration: underline #14c425;
+}
+
+.ToDoSidebarItem__Title span, .ToDoSidebarItem .css-tpuo6v-text {
+    color: #14c425;
+}
+
+.event-details * {
+    color: #14c425;
+}
+
+.recent_feedback_icon:hover {
+    text-decoration: underline #14c425;
+}
+
+.ic-Layout-watermark {
+    display: none;
+}
+
+.ic-app-header__logomark {
+    display: none;
+}
+
+.icon-hamburger {
+    color: #14c425;
+}
+
+nav#breadcrumbs {
+    background: transparent;
+}
+
+nav#breadcrumbs a {
+    color: #14c425;
+}
+
+#breadcrumbs > ul > li + li:last-of-type a {
+    color: white;
+}
+
+.ic-app-course-nav-toggle {
+    outline: none !important;
+    border: none !important;
+    color: #2b2929 !important;
+}
+
+.css-n39mvn-baseButton__content {
+    border-radius: 0px;
+    background: transparent !important;
+    color: #14c425;
+    font-family: monospace;
+}
+
+.css-1a1yqh9-view--inlineBlock-baseButton:hover .css-n39mvn-baseButton__content {
+    color: #2b2929;
+}
+
+.btn, .ui-button, .Button:not(.ic-app-course-nav-toggle), .css-1a1yqh9-view--inlineBlock-baseButton {
+    background-color: #2b2929;
+    color: #14c425 !important;
+    border-radius: 0px;
+    border: 1px solid #14c425 !important;
+    outline: none !important;
+    transition: none;
+    font-family: monospace;
+}
+
+.btn:hover, .ui-button.ui-state-active, .Button:not(.ic-app-course-nav-toggle):hover, .css-1a1yqh9-view--inlineBlock-baseButton:hover {
+    background-color: #14c425;
+    color: #2b2929 !important;
+}
+
+.event-details:after {
+    display: none;
+}
+
+.ic-Dashboard-header__layout {
+    background-color: transparent;
+    color: #14c425;
+}
+
+.ic-DashboardCard__action-container, .ic-DashboardCard__header_content {
+    background-color: #2b2929;
+}
+
+.ic-DashboardCard {
+    background-color: #2b2929;
+    box-shadow: 6px 6px 0px #14c4257d;
+    border: 2px solid #14c425;
+    border-radius: 0px;
+}
+
+.ic-DashboardCard a {
+    color: #a6a6a6;
+}
+
+.ic-DashboardCard__header-title {
+    color: #14c425;
+}
+
+.ic-DashboardCard__header-title * {
+    color: #14c425 !important;
+}
+
+.ic-DashboardCard__header_hero {
+    background-color: #115b18 !important;
+}
+
+.ic-DashboardCard__header_image {
+    filter: blur(0px);
+}
+
+.ic-app-header {
+    background-color: #383434;
+}
+
+.ic-app-header__menu-list-link {
+    background-color: #383434 !important;
+    color: #14c425 !important;
+}
+
+.ic-app-header__menu-list-link .menu-item__text {
+    color: #14c425 !important;
+}
+
+.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+    background-color: #14c425 !important;
+}
+
+.ic-app-header__menu-list-link svg {
+    fill: #14c425 !important;
+}
+
+.ic-app-header__menu-list-item--active svg {
+    fill: white !important;
+}
+
+.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link * {
+    color: white !important;
+}
+
+.css-1gto5tw-tray {
+    background-color: #444040;
+    color: white;
+}
+
+.css-1gto5tw-tray * {
+    color: white !important;
+    font-family: monospace !important;
+}
+
+.css-1gto5tw-tray a {
+    color: #14c425 !important;
+}
+
+.css-13p5152-baseButton__content {
+    border: 1px solid #14c425;
+    color: #14c425 !important;
+    background-color: transparent;
+    outline: none;
+    border-radius: 0px;
+}
+
+.css-13p5152-baseButton__content span {
+    color: #14c425 !important;
+}
+
+.css-svglmx-toggleFacade__facade, .css-10fpqhm-toggleFacade__facade,
+.css-1udblsu-toggleFacade__facade {
+    background-color: transparent;
+    border: 4px solid #6c120c;
+    height: 12px;
+}
+
+.css-puj4r1-toggleFacade__icon {
+    height: 28px;
+    width: 28px;
+    transform: translate(-12px, -8px);
+}
+
+.css-jgf27f-toggleFacade__iconToggle:before {
+    background-color: #c4140a;
+}
+
+.css-htn7vy-toggleFacade__facade, .css-v3yd4w-toggleFacade__facade,
+.css-1my6vm1-toggleFacade__facade {
+    background-color: transparent;
+    border: 4px solid #096011;
+    height: 12px;
+}
+
+.css-vhbbzt-toggleFacade__icon {
+    height: 28px;
+    width: 28px;
+    transform: translate(22px, -8px);
+}
+
+.css-vhbbzt-toggleFacade__icon .css-jgf27f-toggleFacade__iconToggle:before {
+    background: #14c425 !important;
+}
+
+.fc, .fc-toolbar, .fc-left, .fc-right, .fc-center, .fc-view-container {
+    background-color: transparent !important;
+}
+
+.fc {
+    color: #14c425;
+}
+
+.fc-body, #calendar-app {
+    background-color: transparent !important;
+}
+
+.fc-day-top {
+    border: none !important;
+    outline: none !important;
+    color: #14c425;
+}
+
+.fc-row {
+    border: none !important;
+}
+
+.fc-day-grid-event {
+    background-color: transparent !important;
+}
+
+.fc-today {
+    background: #14c425 !important;
+}
+
+.fc-today * {
+    color: white !important;
+}
+
+#calendar-list-holder {
+    background-color: transparent;
+}
+
+.context_list_context {
+    color: #14c425;
+}
+
+.context_list_context.hover-container:hover {
+    background-color: #14c425 !important;
+    color: white;
+}
+
+.event-details {
+    background-color: #383434;
+}
+
+.css-pkzi3c-view-alert {
+    border-radius: 0px;
+    background-color: #2b2929;
+    color: #14c425;
+    border-color: #14c425;
+}
+
+.css-5udsuu-baseButton__iconOnly {
+    color: #14c425;
+}
+
+.css-1nz9urh {
+    background-color: #14c425;
+    border-right: #14c425;
+}
+
+.css-v9mxmy-view-table, .css-v9mxmy-view-table * {
+    background-color: transparent;
+    font-family: monospace;
+}
+
+.css-v9mxmy-view-table span {
+    color: #14c425;
+}
+
+.css-1orhfp7-toggleFacade__label {
+    color: white;
+    font-family: monospace;
+}
+
+.css-1vfp3rz-text {
+    color: #0d911a;
+    font-family: monospace;
+}
+
+textarea.ic_Input, textarea.ic-Input, textarea#submission_comment, .css-1jhqkid-textInput__facade,
+.css-1mf6jeq-textInput__facade, select, textarea#course_public_description, .css-imcgqx-baseButton__content {
+    background-color: transparent !important;
+    color: #14c425;
+    border: 3px #14c425 solid !important;
+    outline: none !important;
+    border-radius: 0px;
+    font-family: monospace;
+}
+
+.css-imcgqx-baseButton__content .css-1qu9onx-view svg {
+    fill: #14c425;
+}
+
+.css-1mtgjqq-textInput, {
+    border-radius: 0px;
+    background: transparent !important;
+    outline: none !important;
+    border: none !important;
+    color: #14c425 !important;
+}
+
+input.ic-Input, input.ic-Input, .coursesettings input[id="course_name"],
+.coursesettings input[id="course_course_code"] {
+    background-color: transparent;
+    background: transparent !important;
+    color: #14c425;
+    border: 3px #14c425 solid !important;
+    outline: none !important;
+    border-radius: 0px;
+    font-family: monospace;
+}
+
+.ef-directory header span {
+    color: white;
+}
+
+.ef-directory .current-filter span {
+    color: #14c425;
+}
+
+.icon-mini-arrow-right, .icon-folder, .icon-folder-locked, .current-filter .icon-mini-arrow-up {
+    color: #14c425 !important;
+}
+
+.ef-modified-by-col .ef-plain-link {
+    color: #14c425;
+}
+
+.ef-item-row:hover {
+    background-color: #08490e;
+}
+
+.al-options.ui-menu.ui-widget {
+    background-color: #2b2929;
+    color: #14c425 !important;
+}
+
+.ui-menu-item a {
+    color: #14c425 !important;
+}
+
+.ui-menu-item a:hover, .ui-menu-item a.ui-state-focus {
+    background-color: #14c425 !important;
+    color: #2b2929 !important;
+}
+
+.css-1ocworu-modal {
+    background-color: #2b2929;
+    color: white;
+}
+
+.css-1y7d45o-modalHeader, .css-pysk6l-modalFooter {
+    background-color: transparent;
+}
+
+.css-4gpjih-mask {
+    background-color: #0d651685;
+}
+
+table#access_tokens * {
+    background-color: transparent;
+}
+
+.icon-trash {
+    color: #14c425;
+}
+
+.hidden-phone {
+    font-family: monospace;
+}
+
+.file-upload-submission {
+    background-color: transparent;
+}
+
+.is-inside-submission-frame {
+    background: transparent !important;
+}
+
+.submission-details-comments .comments {
+    background: transparent;
+    color: #14c425;
+}
+
+.submission-details-comments .comment_content {
+    color: #14c425;
+}
+
+.submission-details-comments div:first-child {
+    background-color: transparent !important;
+}
+
+#right-side #sidebar_content .header {
+    color: #14c425;
+}
+
+iframe[src^="https://docs.google.com/picker?"] {
+    filter: invert(100%);
+}
+
+.ui-tabs .ui-tabs-panel {
+    background-color: transparent;
+}
+
+.ui-tabs li {
+    color: #14c425;
+    background-color: transparent;
+    border: none !important;
+    border-radius: 0px;    
+}
+
+.ui-tabs li * { color: #14c425 !important; }
+
+.ui-tabs li.ui-tabs-active {
+    color: #2b2929;
+    background-color: #14c425 !important;
+}
+
+.ui-tabs li.ui-tabs-active * { color: #2b2929 !important; }
+
+.css-qijfdi-view--inlineBlock-baseButton, .css-yqosue-view--inlineBlock-baseButton {
+    border: 2px solid #14c425 !important;
+}
+
+.css-qijfdi-view--inlineBlock-baseButton span, .css-yqosue-view--inlineBlock-baseButton span {
+    background: #2b2929 !important;
+    color: #14c425;
+}
+
+.css-138gh4t-view [style*="background-color: rgb(229, 242, 248)"] {
+    background-color: #14c425 !important;
+    color: #2b2929 !important;
+}
+
+.css-vxe90h-view--inlineBlock {
+    background-color: transparent;
+}
+
+.ic-DashboardCard__box__header {
+    background: transparent !important;
+}
+
+.menu-item__badge {
+    background-color: #14c425;
+}
+
+li.section i.nav-icon {
+    background: transparent;
+    color: #14c425;
+}
+
+li.section a.active i.nav-icon {
+    color: #2b2929;
+}
+
+footer.sticky-footer {
+    background-color: transparent;
+}
+
+aside#right-side table, aside#right-side tr, aside#right-side th, aside#right-side td {
+    background: transparent;
+}
+
+#tab-details h2, #tab-details label, #tab-details p, .css-j68kdy-formFieldLabel {
+    color: #14c425 !important;
+}
+
+#course_enrollment_term_id {
+    color: white;
+}
+
+.css-l3we3a-checkboxFacade__label {
+    color: #14c425;
+}
+
+.css-17ups1w-text {
+    color: #a6b012;
+}
+
+#language-description, #due-time-description {
+    color: #a6b012;
+}
+
+.coursesettings .css-1mtgjqq-textInput {
+    color: #14c425 !important;
+}
+
+#eesy-tab-custom-drag-handlers {
+    color: #14c425;
+    transition: none;
+}
+
+#eesy-tab-custom-inner {
+    background-color: #14c425;
+    transition: none;
+    border-radius: 0px;
+}
+
+.css-1koel5u-view--block-options__list {
+    background-color: #2b2929;
+    border: 3px solid #14c425;
+    color: #14c425;
+    box-shadow: none;
+    filter: none;
+}
+
+.css-1v8v5q1-optionItem {
+    background-color: #2b2929;
+    color: #14c425;
+}
+
+.css-v6ykv-optionItem {
+    background-color: #14c425;
+    color: #2b2929;
+}
+
+.css-1lt82pt-optionItem {
+    background-color: #0b6e15;
+}
+
+.ui-widget-content {
+    color: white;
+}
+
+.css-1mtgjqq-textInput {
+    color: #14c425 !important;
+}
+
+.css-dnxsnm-view-link {
+    color: #14c425 !important;
+}
+
+.css-dnxsnm-view-link:hover {
+    color: #0b6e15 !important;
+}
+
+.headless.quiz-submission {
+    background-color: transparent;
+}
+
+.headless #questions .question {
+    background-color: transparent;
+}
+
+.quiz_score .score_value {
+    color:#14c425;
+}
+
+.headless #questions .question .header {
+    background-color: #14c425;
+    color: white;
+}
+
+.headless #questions .question .header .question_points_holder {
+    color: #12711b !important;
+}
+
+.ui-draggable-handle.ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar,
+.ui-dialog-buttons.ui-resizable.ui-draggable.ui-corner-all.ui-widget-content.ui-widget.ui-dialog,
+.ui-helper-clearfix.ui-widget-content.ui-dialog-buttonpane {
+    background-color: black;
+}
+
+.ui-dialog-title {
+    color: #14c425;
+}
+
+.ui-dialog .ui-icon.ui-icon-closethick {
+    filter: invert(100);
+    opacity: 1;
+}
+
+.ui-widget-overlay {
+    background-color: rgba(47, 47, 47, .75)
+}
+}
