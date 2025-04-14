@@ -676,4 +676,170 @@ aside#right-side table, aside#right-side tr, aside#right-side th, aside#right-si
 .ui-widget-overlay {
     background-color: rgba(47, 47, 47, .75)
 }
+
+#submit_quiz_form .assessing, .quiz-submission  {
+    background-color: black;
+}
+
+#submit_quiz_form .text, .quiz-submission  .text {
+    background-color: black;
+}
+
+#submit_quiz_form .header, .quiz-submission .header {
+    background-color: black !important;
+    color: #14c425;
+}
+
+.flash-message-container {
+    background-color: black !important;
+}
+
+.flash-message-container .Button {
+    border: none !important;
+}
+
+.ic-flash-success {
+    border: 2px solid #14c425;
+    border-radius: 0px !important;
+}
+
+.ic-flash-success .ic-flash__icon {
+    background-color: #14c425;
+}
+
+.ic-flash-warning {
+    border: 2px solid #d8c535;
+    border-radius: 0px !important;
+}
+
+.ic-flash-warning .ic-flash__icon {
+    background-color: #d8c535;
+}
+
+.submission-pending-review {
+    color: #d8c535 !important;
+}
+
+.quiz-submission .alert {
+    background-color: black;
+    border: 3px solid #d8c535;
+    color: #d8c535;
+    border-radius: 0px;
+    padding: 4px 8px;
+}
+
+.unpinned-discussions-v2__wrapper, .closed-for-comments-discussions-v2__wrapper {
+    background-color: black;
+    color: white;
+}
+
+.discussions-container__wrapper .css-10dz9lm-toggleDetails__summary .css-1fvrx9c-text,
+.discussions-container__wrapper .css-10dz9lm-toggleDetails__summary .css-dwm2m9-toggleDetails__icon * {
+    color: #14c425;
+}
+
+.discussions-v2__container-image {
+    background-color: #2b2b2b;
+}
+
+.discussions-container__wrapper .css-1e16g29-view-link {
+    color: #14c425
+}
+
+.discussions-container__wrapper .css-1e16g29-view-link:hover {
+    color: #14c425 !important;
+    text-decoration: underline;
+}
+
+.discussions-v2__container-image .css-1fvrx9c-text {
+    color: white !important;
+}
+
+.ctf-message-list, .ctf-header, .ctf-container, .ctf-message-input, .ctf-users-typing {
+    background-color: transparent;
+}
+
+.ctf-message__name {
+    color: #14c425 !important;
+}
+
+.ctf-message__text__content *, .ctf-message__text__content {
+    color: white !important;
+}
+
+.ctf-message__text__time {
+    color: #14c425 !important;
+}
+
+.user-list .bEQNl_bGBk.bEQNl_doqw.bEQNl_drST.bEQNl_eQnG.bEQNl_bLsb {
+    color: #14c425;
+    text-decoration: none !important;
+}
+
+.user-list button.fbyHH_bGBk.fbyHH_vIby {
+    text-decoration: none;
+}
+
+.user-list .bEQNl_bGBk.bEQNl_doqw.bEQNl_drST.bEQNl_eQnG.bEQNl_bLsb:hover {
+    text-decoration: underline;
+}
+
+.ctf-date-header {
+    color: black;
+}
+
+.ctf-date-header h2 {
+    background-color: #14c425;
+}
+}
+
+@-moz-document regexp("[\\s\\S]*.instructure.com/media_attachments_iframe/[\\s\\S]*") {
+
+
+.media-player, .video-player {
+    background-color: black;
+}
+
+.audio-player {
+    background-color: white;
+    filter: invert(100%) brightness(200%);
+}
+
+.css-ds5smj {
+    filter: invert(100%);
+}
+
+.css-1jo6mxk-button-start, .css-ray3ih-rest, .css-osw6zp-button {
+    background-color: #444;
+}
+
+.css-15j4b4b-timebarContent {
+    background-color: transparent;
+}
+
+.css-dfr83z-buffered {
+    background-color: #595959;
+}
+
+.css-xeev3f-viewed {
+    background-color: #1c90b5;
+}
+
+.css-1v3tle5-player-control-container {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+
+[name="IconPlay"] {
+    fill: #14c425;
+}
+
+[name="IconPause"] {
+    fill: #d8c535;
+}
+
+iframe[src*="type=audio"] {
+    height: 100px !important;
+}
 }
