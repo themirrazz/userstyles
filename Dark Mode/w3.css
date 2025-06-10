@@ -1,0 +1,82 @@
+.w3-light-grey, #main, #belowtopnav, .w3-sidebar, .w3-white, html {
+    background: #2e2e2e !important;
+    background-color: #2e2e2e !important;
+    color: white !important;
+}
+
+#sidenav, #leftmenuinnerinner {
+    background: #4a4949 !important;
+    background-color: #4a4949 !important;
+}
+
+.ws-table-all tr:nth-child(2n+1) {
+    background: #4a4949 !important;
+    background-color: #4a4949 !important;
+}
+
+.ws-table-all tr:nth-child(2n) {
+    background: #636363 !important;
+    background-color: #636363 !important;
+}
+
+#tnb-google-search-container input {
+    background-color: #4a4949 !important;
+    color: white;
+}
+
+#tnb-google-search-icon path, #tnb-dark-mode-toggle-btn i {
+    color: white !important;
+    fill: white !important;
+}
+
+.ws-info {
+    background-color: #1e5e36;
+}
+
+.w3-example {
+    background-color: #434343 !important;
+}
+
+.ws-note {
+    background-color: #5e5e08;
+}
+
+.jscolor, .jscolor *[style="color:black"], .jscolor *[style="color:black;"] { color: white !important; }
+.w3-code { background-color: black; }
+.jscolor *[style="color:#005cc5;"] { color: #3998de !important; }
+.jscolor *[style="color:#005cc5"] { color: #3998de !important; }
+.jscolor *[style="color:#905"] { color: #b979e6 !important; }
+.jscolor *[style="color:#905;"] { color: #b979e6 !important; }
+.jscolor *[style="color:green"] { color: #43cb3a !important; }
+.jscolor *[style="color:green;"] { color: #43cb3a !important; }
+
+
+.CodeMirror { background: black; color: white; }
+.cm-s-default, .cm-variable, .cm-property, .cm-def, .cm-function { color: white !important; }
+
+.trytopnav {
+    background-color: #4d4d4d;
+    background: #4d4d4d;
+    color: white;
+}
+
+#container {
+    background-color: #2e2e2e;
+}
+
+#navbarDropMenu, #navbarDropMenu .ws-grey {
+    background-color: #232323 !important;
+}
+
+#navbarDropMenu a span span { color: grey !important; }
+
+#navbarDropMenu a[href='https://spaces.w3schools.com'] img {
+    filter: invert(100%);
+}
+
+#navbarDropMenu * { color: white; }
+
+#spaceItModalParentContainer {
+    background: #282A35;
+    color: white;
+}
